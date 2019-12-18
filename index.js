@@ -83,6 +83,9 @@ Car.prototype.fill = function(gallons) {
   return this.tank += gallons
 }
 
+Car.prototype.drive = function(distance) {
+
+}
 
 
 /*
@@ -109,10 +112,10 @@ Baby.prototype.play = function(favoriteToy) {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. If no reference is given for keyword, it will default to the window object.
+  2. Keyword references the object before the dot that follows it.
+  3. Keyword refers to the specific instance of the object that is created when a constructor function is used.
+  4. Keyword is explicitly defined when call or apply is used.
 */
 
 
